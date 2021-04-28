@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+
+body{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    background-color: #fdfdfd;
+}
+
+
+.container{
+    display: flex;
+    background-color:#fdfdfd ;
+    width: 90%;
+    height: 100vh;
+    margin: 0px auto;
+}
+
+
+header{
+    /*display: flex;*/
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr;
+    background-color: #fdfdfd;
+    /*background-color: coral;*/
+    width: 100%;
+    height: 170px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px 30px 50px;
+}
+
+
+@media screen and (min-width:700px) {
+    header{
+       display: flex;
+       justify-content: flex-end;
+       
+    }
+}
+
+
+header img{
+    width: 82px;
+}
+
+
+@media screen and (min-width:700px){
+    header img{
+        width: 44px;
+        margin-right: auto;
+    }
+}
+
+
+
+header .inscription{
+    text-decoration: none;
+    color: #0065FC;
+    font-size: 14px;
+    /*background-color: darkgreen;*/
+    justify-self: end;
+    padding-right: 20px;
+}
+
+
+
+@media  screen and (min-width:700px) {
+    header .inscription{
+        /*background-color: indigo;*/
+        margin-right: 133px;
+    }
+}
+
+
+
+@media  screen and (max-width:700px) {
+    header .inscription{ 
+    }
+}
+
+
+
+header .hébergements{
+    text-decoration: none;
+    color: #0065FC;
+    /*background-color: crimson;*/
+    font-size: 19px;
+    padding-left: 10px;
+}
+
+
+
+@media  screen and (min-width:700px) {
+    header .hébergements{
+       /*background-color: rgb(26, 36, 26); */
+       margin-right: 25px;
+    }
+}
+
+
+
+header .activités{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    /*background-color: darkgreen;*/
+    justify-self: end;
+    padding-right: 55px;
+}
+
+
+
+@media  screen and (min-width:700px) {
+    header .activités{
+        margin-right: 25px;
+    }
+}
+
+
+
+@media screen and (min-width:700px) {
+    header .activités, header .hébergements, header .inscription{
+    /*background-color: lawngreen;*/
+    padding: 0px;
+    font-size: 7px;
+    
+    }
+}
+
+
+
+@media screen and (max-width:700px){
+    header .hébergements{
+        order: 3;
+    }
+
+    header .activités{
+        order: 4;
+    }
+}
