@@ -15,6 +15,7 @@
 body{
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     background-color: #fdfdfd;
+    
 }
 
 
@@ -37,21 +38,75 @@ header{
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 1fr;
-    background-color: #fdfdfd;
-    /*background-color: coral;*/
+    /*background-color: #fdfdfd;*/
+    background-color: coral;
     width: 100%;
     height: 170px;
     justify-content: space-between;
     align-items: center;
     padding: 0px 90px 30px 50px;
+    position: relative;
 }
 
 
 @media screen and (min-width:700px) {
     header{
-       display: flex;
-       justify-content: flex-end;
-       
+        background-color: sandybrown;
+        display: flex;
+        padding: 0px 0px 30px 10px;
+        justify-content: flex-end;
+    }
+}
+
+
+
+/*header bar*/
+
+@media screen and (max-width:700px){
+    header::before{
+        content: "";
+        width: 100%;
+        height: 4px;
+        background-color:  #DEEBFF;
+        position: absolute;
+        transform: translateY(70px);
+    }
+}
+
+
+/*@media screen and (max-width:700px){
+    header::after{
+        content: "";
+        width: 50%;
+        height: 4px;
+        background-color: rgb(31, 69, 196);
+        position: absolute;
+        transform: translateY(70px);
+    }
+}
+*/
+
+
+@media screen and (min-width:700px){
+    header::before{
+        content: "";
+        width: 25vw;
+        height: 4px;
+        background-color: rgb(128, 131, 139);
+        position: absolute;
+        transform: translateY(-35px);
+    }
+}
+
+
+@media screen and (min-width:700px){
+    header::after{
+        content: "";
+        width: 10vw;
+        height: 4px;
+        background-color: rgb(11, 48, 151);
+        position: absolute;
+        transform: translateY(-35px);
     }
 }
 
@@ -77,17 +132,18 @@ header .inscription{
     text-decoration: none;
     color: #0065FC;
     font-size: 14px;
-    /*background-color: darkgreen;*/
+    background-color: darkgreen;
     justify-self: end;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 
 
 
 @media  screen and (min-width:700px) {
     header .inscription{
-        /*background-color: indigo;*/
-        margin-right: 133px;
+        background-color: indigo;
+        margin-right: 15px;
+       
     }
 }
 
@@ -104,9 +160,26 @@ header .inscription{
 header .hébergements{
     text-decoration: none;
     color: #0065FC;
-    /*background-color: crimson;*/
+    background-color: crimson;
     font-size: 19px;
     padding-left: 10px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+@media  screen and (max-width:700px) {
+    .hébergements::after{
+        content: "";
+        width: 100%;
+        height: 3px;
+        
+       background-color: rgb(26, 36, 26); 
+       position: absolute;
+       top: 90%;
+       left: 0px;
+    }
 }
 
 
@@ -114,9 +187,12 @@ header .hébergements{
 @media  screen and (min-width:700px) {
     header .hébergements{
        /*background-color: rgb(26, 36, 26); */
-       margin-right: 25px;
+       margin-right: 20px;
     }
 }
+
+
+
 
 
 
@@ -126,16 +202,16 @@ header .activités{
     text-decoration: none;
     color: black;
     font-size: 14px;
-    /*background-color: darkgreen;*/
+    background-color: darkgreen;
     justify-self: end;
-    padding-right: 55px;
+    margin-right: 55px;
 }
 
 
 
 @media  screen and (min-width:700px) {
     header .activités{
-        margin-right: 25px;
+        margin-right: 20px;
     }
 }
 
