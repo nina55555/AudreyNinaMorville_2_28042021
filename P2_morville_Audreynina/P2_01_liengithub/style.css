@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
 
+/*general rules*/
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,12 +10,16 @@
     overflow: auto;
 }
 
+/*body rules*/
 
 body{
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     background-color: #fdfdfd;
 }
 
+
+
+/*container rules*/
 
 .container{
     display: flex;
@@ -23,6 +29,8 @@ body{
     margin: 0px auto;
 }
 
+
+/*header rules*/
 
 header{
     /*display: flex;*/
@@ -48,6 +56,8 @@ header{
 }
 
 
+/*images rules*/
+
 header img{
     width: 82px;
 }
@@ -61,6 +71,7 @@ header img{
 }
 
 
+/*suscription rules*/
 
 header .inscription{
     text-decoration: none;
@@ -88,6 +99,7 @@ header .inscription{
 }
 
 
+/*hosting rules*/
 
 header .hébergements{
     text-decoration: none;
@@ -108,6 +120,8 @@ header .hébergements{
 
 
 
+/*activities rules*/
+
 header .activités{
     text-decoration: none;
     color: black;
@@ -127,16 +141,19 @@ header .activités{
 
 
 
+/* suscription, hosting and activities rules*/
+
 @media screen and (min-width:700px) {
     header .activités, header .hébergements, header .inscription{
     /*background-color: lawngreen;*/
     padding: 0px;
     font-size: 7px;
-    
     }
 }
 
 
+
+/*ordering the elements*/
 
 @media screen and (max-width:700px){
     header .hébergements{
