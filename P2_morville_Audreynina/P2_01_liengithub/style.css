@@ -9,7 +9,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    overflow: auto;
+    overflow: visible;
 }
 
 /*BODY RULES*/
@@ -346,7 +346,7 @@ header .activités:hover~.bar-position{
     color: #0065FC;
     border-radius: 25px;
     width: 45px;
-    height: 45px;
+    height: 41px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -356,7 +356,7 @@ header .activités:hover~.bar-position{
 
 
 
-.eco, .fam, .rom, .pets~button{
+.eco, .fam, .rom, .pets{
     /*background-color: #801010;*/
     display: flex;
     align-items: center;
@@ -369,6 +369,18 @@ header .activités:hover~.bar-position{
 }
 
 
+.eco, .fam, .rom, .pets~a{
+    margin-left: 10px;
+}
 
 
 
+.info{
+    /*background-color: mediumslateblue;*/
+    margin: 5px 0px 59px 0px;
+}
+
+
+.info i{
+    width: 20px;
+}
