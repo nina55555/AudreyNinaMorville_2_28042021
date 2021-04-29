@@ -91,27 +91,29 @@ header{
     header{
        /* background-color: sandybrown;*/
         display: flex;
-        padding: 0px 0px 30px 0px;
+        padding: 17px 0px 30px 0px;
+        
+        
         justify-content: flex-end;
     }
 
     header .bar{
         background-color:#fdfdfd ;
-        top: 15px;
+        top: 1px;
         right: 59px;
         width: 120px;
         height: 2px;
     }
 
     header .bar-position{
-        top: 15px;
+        top: 1px;
         right: 105px;
         width: 75px;
         height: 2px;
     }
 
     header .activités:hover~.bar-position{
-        top: 15px;
+        top: 1px;
         right: 105px;
         width: 50px;
     }
@@ -238,6 +240,7 @@ header .activités:hover~.bar-position{
     /*background-color: lawngreen;*/
     padding: 0px;
     font-size: 7px;
+    
     }
 }
 
