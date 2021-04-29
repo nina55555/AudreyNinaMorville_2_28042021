@@ -38,77 +38,78 @@ header{
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 1fr;
-    /*background-color: #fdfdfd;*/
-    background-color: coral;
+    background-color: #fdfdfd;
+    /*background-color: coral;*/
     width: 100%;
     height: 170px;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 90px 30px 50px;
+    padding: 0px 10px 30px 10px;
     position: relative;
 }
 
 
-@media screen and (min-width:700px) {
-    header{
-        background-color: sandybrown;
-        display: flex;
-        padding: 0px 0px 30px 10px;
-        justify-content: flex-end;
-    }
-}
-
-
-
-/*header bar*/
 
 @media screen and (max-width:700px){
-    header::before{
-        content: "";
-        width: 100%;
-        height: 4px;
-        background-color:  #DEEBFF;
-        position: absolute;
-        transform: translateY(70px);
+    header{
+
     }
 }
 
 
-/*@media screen and (max-width:700px){
-    header::after{
-        content: "";
-        width: 50%;
-        height: 4px;
-        background-color: rgb(31, 69, 196);
-        position: absolute;
-        transform: translateY(70px);
-    }
+
+.bar{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    height: 10px;
+    background-color:#F2F2F2;
 }
-*/
 
-
-@media screen and (min-width:700px){
-    header::before{
-        content: "";
-        width: 25vw;
-        height: 4px;
-        background-color: rgb(128, 131, 139);
-        position: absolute;
-        transform: translateY(-35px);
-    }
+.bar-position{
+    position: absolute;
+    top: 90%;
+    width: 50%;
+    height: 10px;
+    background-color:#0065FC;
+    z-index: 100;
 }
 
 
-@media screen and (min-width:700px){
-    header::after{
-        content: "";
-        width: 10vw;
-        height: 4px;
-        background-color: rgb(11, 48, 151);
-        position: absolute;
-        transform: translateY(-35px);
+
+
+@media screen and (min-width:700px) {
+    header{
+       /* background-color: sandybrown;*/
+        display: flex;
+        padding: 0px 0px 30px 0px;
+        justify-content: flex-end;
+    }
+
+    header .bar{
+        background-color:#fdfdfd ;
+        top: 15px;
+        right: 59px;
+        width: 120px;
+        height: 2px;
+    }
+
+    header .bar-position{
+        top: 15px;
+        right: 105px;
+        width: 75px;
+        height: 2px;
+    }
+
+    header .activités:hover~.bar-position{
+        top: 15px;
+        right: 105px;
+        width: 50px;
     }
 }
+
+
+
 
 
 /*images rules*/
@@ -122,6 +123,7 @@ header img{
     header img{
         width: 44px;
         margin-right: auto;
+        transform: translateY(50%);
     }
 }
 
@@ -132,16 +134,15 @@ header .inscription{
     text-decoration: none;
     color: #0065FC;
     font-size: 14px;
-    background-color: darkgreen;
+    /*background-color: darkgreen;*/
     justify-self: end;
-    margin-right: 20px;
 }
 
 
 
 @media  screen and (min-width:700px) {
     header .inscription{
-        background-color: indigo;
+        /*background-color: indigo;*/
         margin-right: 15px;
        
     }
@@ -155,32 +156,20 @@ header .inscription{
 }
 
 
+
 /*hosting rules*/
 
 header .hébergements{
     text-decoration: none;
     color: #0065FC;
-    background-color: crimson;
-    font-size: 19px;
-    padding-left: 10px;
+    /*background-color: crimson;*/
+    font-size: 14px;
     position: relative;
     overflow: hidden;
+    text-align: center;
     
 }
 
-
-@media  screen and (max-width:700px) {
-    .hébergements::after{
-        content: "";
-        width: 100%;
-        height: 3px;
-        
-       background-color: rgb(26, 36, 26); 
-       position: absolute;
-       top: 90%;
-       left: 0px;
-    }
-}
 
 
 
@@ -195,16 +184,19 @@ header .hébergements{
 
 
 
-
 /*activities rules*/
 
 header .activités{
     text-decoration: none;
     color: black;
     font-size: 14px;
-    background-color: darkgreen;
-    justify-self: end;
-    margin-right: 55px;
+    /*background-color: darkgreen;*/
+    text-align: center;
+}
+
+
+header .activités:hover~.bar-position{
+        transform: translateX(100%);  
 }
 
 
@@ -214,6 +206,7 @@ header .activités{
         margin-right: 20px;
     }
 }
+
 
 
 
