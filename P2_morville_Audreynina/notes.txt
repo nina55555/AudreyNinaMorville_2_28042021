@@ -6,7 +6,7 @@ icônes Font Awesome.
 gris clair
 #F2F2F2
 
-gris 
+bleu clair 
 #DEEBFF
 
 bleu
