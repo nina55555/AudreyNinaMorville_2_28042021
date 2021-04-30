@@ -822,3 +822,27 @@ i.star-grey{
 }
 
 
+
+
+
+
+/*..*/
+
+
+
+
+/*FOOTER PART*/
+
+
+
+footer{
+    display: flex;
+    /*background-color: teal;*/
+    flex-direction: column;
+    
+}
+
+
+.a-propos, .nos-hebergements, .assistance{
+    margin: 0px 0px 35px 10px;
+}
