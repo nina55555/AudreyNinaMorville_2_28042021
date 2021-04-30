@@ -599,3 +599,226 @@ i.star-grey{
     width: 170px;
 }
 
+
+
+
+
+
+
+
+/*MARSEILLE HOSTING PART*/
+
+
+
+
+.titre-heberg-mars{
+    display:flex;
+    /*background-color:#971c1c ;*/
+    justify-content: space-between;
+    /*padding: 20px 0px 20px 0px;*/
+}
+
+
+
+.titre-heberg-mars i{
+    display:flex;
+    /*background-color: rgb(128, 0, 64);*/
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+}
+
+
+.heberg-mars{
+    background-color: #F2F2F2 ;
+    height: 1000px;
+
+}
+
+
+
+.infheberg {
+    /*padding: 10px 0px 0px 20px;*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: flex-start;
+    /*background-color: red;*/
+    position: relative;
+}
+
+
+
+.stars2{
+    display: flex;
+    /*background-color: violet;*/
+    height: 15px;
+    position: absolute;
+    
+    justify-content: space-between;
+    
+    
+}
+
+
+.stars2 i{
+    transform: translateY(250%);
+    font-size: 10px;
+    color: #0065FC;
+    
+    /*padding: 20px 0px 10px 0px;*/
+    
+}
+
+
+
+.box-a, .box-b, .box-c{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*MARSEILLE 1*/
+
+
+.box-a{
+    border: 5px solid #F2F2F2;
+    background-color:#fdfdfd ;
+    display: flex;
+    justify-content: space-evenly;
+    height: 180px;
+    margin-top: 10px;
+    border-radius: 15px;
+    
+    padding: 5px;
+}
+
+
+
+.box-a h2{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.box-a p{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+.box-a img{
+    border-radius: 8px;
+    width: 100%;
+    height: 90px;
+}
+
+
+
+/*MARSEILLE 2*/
+
+
+
+.box-b{
+    border: 5px solid #F2F2F2;
+    background-color:#fdfdfd ;
+    display: flex;
+    justify-content: space-evenly;
+    height: 180px;
+    margin-top: 10px;
+    border-radius: 15px;
+
+    padding: 5px;
+}
+
+
+
+.box-b h2{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.box-b p{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+i.star-grey{
+    color: #F2F2F2 ;
+}
+
+
+.box-b img{
+    border-radius: 8px;
+    width: 100%;
+    height: 90px;
+}
+
+
+
+/*MARSEILLE 3*/
+
+
+.box-c{
+    border: 5px solid #F2F2F2;
+    background-color:#fdfdfd ;
+    display: flex;
+    justify-content: space-evenly;
+    height: 180px;
+    margin-top: 10px;
+    border-radius: 15px;
+    
+    padding: 5px;
+}
+
+
+
+.box-c h2{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.box-c p{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+i.star-grey{
+    color: #F2F2F2 ;
+}
+
+
+.box-c img{
+    border-radius: 8px;
+    width: 100%;
+    height: 90px;
+}
+
+
