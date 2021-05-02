@@ -38,27 +38,35 @@
                 </h1>
                 <p>En plein centre ville ou en pleine nature
                 </p>
-                <div class="box">
-                    <i class="fas fa-map-marker-alt">
-                    </i>
+                <div class="city-zone">
+                    <div class="icone">
+                       <i class="fas fa-map-marker-alt">
+                    </i> 
+                    </div>
+                    <div class="input-zone">
                         <input type="text" placeholder="Marseille, France">
                             <button
                             class="search">
                                 <i class="fas fa-search"></i>   
                             </button>
+                    </div>
+                        
                 </div>
             </div>
         </section>
 
         <!--FILTRES SECTION-->
         <section>
-            <h1>Filtres</h1>
+            <div class="filtres-titre">
+                <h1>Filtres</h1>
+            </div>
+            
                 <div class="filtres">
                     <div class="filtres-g">
                         <button class="eco">
                             <i class="fas fa-money-bill-wave">  
                             </i>
-                            <p>economique 
+                            <p>Economique 
                             </p> 
                          </button> 
                         <button class="rom">
@@ -86,10 +94,21 @@
 
 
         <!--INFO SECTION-->
-        <p class="info">
-            <i class="fas fa-info-circle">
-            </i> Plus de 500 logements sont disponibles dans cette ville
-        </p>
+        <div class="information">
+            <div class="icone-info">
+                <i class="fas fa-info-circle">
+                </i>
+            </div>
+            <div class="text-info">
+                 <p class="info">
+                    Plus de 500 logements sont disponibles dans cette ville
+                </p> 
+            </div>
+              
+            
+            
+        </div>
+        
 
 
         <!--MOST POPULAR SECTION-->
@@ -105,9 +124,12 @@
                 </div>
                 
                 <!--FIRST CARD MOST POPULAR-->
-                <div class="box1">
+                <div class="boxes-pop">
                     <!--IMAGE PART-->
-                    <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo chambre">
+                    <div class="img-pop">
+                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo chambre">
+                    </div>
+                    
                         <!--DESCRIPTION PART-->
                         <div class="infhotel">
                             <h2>Hotel Le soleil du matin
@@ -126,8 +148,11 @@
 
 
                 <!--SECOND CARD MOST POPULAR-->
-                <div class="box2">
-                    <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo chambre2">
+                <div class="boxes-pop">
+                    <div class="img-pop">
+                        <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo chambre2">
+                    </div>
+                    
                         <div class="infhotel">
                             <h2>Au coeur de l'eau Chambres d'hôtes
                             </h2>
@@ -145,8 +170,11 @@
 
 
                 <!--THIRD CARD MOST POPULAR-->
-                <div class="box3">
-                    <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo chambre3 ">
+                <div class="boxes-pop">
+                    <div class="img-pop">
+                        <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo chambre3 ">
+                    </div>
+                    
                         <div class="infhotel">
                             <h2>Hôtel Tout bleu et blanc
                             </h2>
@@ -161,6 +189,7 @@
                                     </div>
                         </div>
                 </div>
+
             </div>
         </section>
         <!--END MOST POPULAR-->
@@ -178,8 +207,11 @@
                 
 
                 <!--FIRST MARSEILLE HOSTING CARD-->
-                <div class="box-a box">
-                    <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo chambre">
+                <div class="card-heberg">
+                    <div class="box-heberg-img">
+                        <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo heberg1">
+                    </div>
+                    
                         <!--DESCRIPTION PART BOTTOM -->
                         <div class="infheberg">
                             <h2>Auberge La Cannebière
@@ -191,18 +223,21 @@
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star star-grey"></i>
                                     </div>
                         </div>
                 </div>
 
 
                 <!--SECOND MARSEILLE HOSTING CARD-->
-                <div class="box-b box">
-                    <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo chambre2">
+                <div class="card-heberg">
+                    <div class="box-heberg-img">
+                        <img src="images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo heberg2">
+                    </div>
+                    
                         <!--DESCRIPTION PART BOTTOM-->
                         <div class="infheberg">
-                            <h2>>Hotel du port
+                            <h2>Hotel du port
                             </h2>
                                 <p>Nuit à partir de 52E
                                 </p>
@@ -211,14 +246,17 @@
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
-                                        <i class="fas fa-star star-grey"></i>
+                                        <i class="fas fa-star"></i>
                                     </div>
                         </div>
                 </div>
 
                 <!--THIRD MARSEILLE HOSTING CARD-->
-                <div class="box-c box">
-                    <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo chambre3 ">
+                <div class="card-heberg">
+                    <div class="box-heberg-img">
+                        <img src="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo haberg3 ">
+                    </div>
+                    
                         <!--DESCRIPTION PART BOTTOM-->
                         <div class="infheberg">
                             <h2>Hôtel Les mouettes
@@ -236,32 +274,78 @@
                 </div>
 
                  <!--FOURTH MARSEILLE HOSTING CARD-->
-                 <div class="box">
-                    <img src="" alt="photo chambre3 ">
+                 <div class="card-heberg">
+                     <div class="box-heberg-img">
+                         <img src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo heberg4 ">
+                     </div>
+                    
                         <!--DESCRIPTION PART BOTTOM-->
                         <div class="infheberg">
-                            <h2>Hôtel Les mou
+                            <h2>Hôtel de la mer
                             </h2>
-                                <p>Nuit à partir de 76E
+                                <p>Nuit à partir de 46E
                                 </p>
                                     <div class="stars2">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star star-grey"></i>
                                         <i class="fas fa-star star-grey"></i>
                                     </div>
                         </div>
                 </div>
 
 
+                <!--FIFTH MARSEILLE HOSTING CARD-->
+                <div class="card-heberg">
+                    <div class="box-heberg-img">
+                        <img src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo heberg5 ">
+                    </div>
+                   
+                       <!--DESCRIPTION PART BOTTOM-->
+                       <div class="infheberg">
+                           <h2>Auberge Le Panier
+                           </h2>
+                               <p>Nuit à partir de 23E
+                               </p>
+                                   <div class="stars2">
+                                       <i class="fas fa-star"></i>
+                                       <i class="fas fa-star"></i>
+                                       <i class="fas fa-star"></i>
+                                       <i class="fas fa-star"></i>
+                                       <i class="fas fa-star star-grey"></i>
+                                   </div>
+                       </div>
+               </div>
+
+                <!--SIXTH MARSEILLE HOSTING CARD-->
+                <div class="card-heberg">
+                    <div class="box-heberg-img">
+                        <img src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo heberg6 ">
+                    </div>
+                   
+                       <!--DESCRIPTION PART BOTTOM-->
+                       <div class="infheberg">
+                           <h2>Hotel chez Amina
+                           </h2>
+                               <p>Nuit à partir de 96E
+                               </p>
+                                   <div class="stars2">
+                                       <i class="fas fa-star"></i>
+                                       <i class="fas fa-star"></i>
+                                       <i class="fas fa-star"></i>
+                                       <i class="fas fa-star"></i>
+                                       <i class="fas fa-star"></i>
+                                   </div>
+                       </div>
+               </div>
 
 
             </div>
         </section>
         <!--END MARSEILLE HOSTING PART-->
 
-        <button>Afficher plus</button>
+        <button class="afficher-plus">Afficher plus</button>
 
 
 
@@ -277,14 +361,79 @@
                     <h1>Activités à Marseille</h1>
                 </div>
 
-                <div class="img-activité">
-                    <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo chambre3 "> 
-                </div>
-                    <!--TITRE BOTTOM BOX-->
-                <div class="activité-descr">
-                    <p>Nuit à partir de 76E
-                    </p>
-                </div>
+                    <!--FIRST ACTIVITY CARD-->
+                    <div class="card-activité">
+                        <div class="img-activité">
+                            <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo activite1 "> 
+                         </div>
+                        <!--TITRE BOTTOM BOX-->
+                        <div class="activité-descr">
+                            <p>Vieux Port
+                            </p>
+                         </div>
+                    </div>
+
+                     <!--SECOND ACTIVITY CARD-->
+                     <div class="card-activité">
+                        <div class="img-activité">
+                            <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo activité2 "> 
+                         </div>
+                        <!--TITRE BOTTOM BOX-->
+                        <div class="activité-descr">
+                            <p>Fort de Pomègues
+                            </p>
+                         </div>
+                    </div>
+
+                     <!--THIRD ACTIVITY CARD-->
+                     <div class="card-activité">
+                        <div class="img-activité">
+                            <img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo activité3 "> 
+                         </div>
+                        <!--TITRE BOTTOM BOX-->
+                        <div class="activité-descr">
+                            <p>Iles du Frioul
+                            </p>
+                         </div>
+                    </div>
+
+                     <!--FOURTH ACTIVITY CARD-->
+                     <div class="card-activité">
+                        <div class="img-activité">
+                            <img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo activité4 "> 
+                         </div>
+                        <!--TITRE BOTTOM BOX-->
+                        <div class="activité-descr">
+                            <p>Parc National des Calanques
+                            </p>
+                         </div>
+                    </div>
+
+                     <!--FIFTH ACTIVITY CARD-->
+                     <div class="card-activité">
+                        <div class="img-activité">
+                            <img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo activité5 "> 
+                         </div>
+                        <!--TITRE BOTTOM BOX-->
+                        <div class="activité-descr">
+                            <p>Notre-Dame-de-la-Garde
+                            </p>
+                         </div>
+                    </div>
+
+                     <!--SIXTH ACTIVITY CARD-->
+                     <div class="card-activité">
+                        <div class="img-activité">
+                            <img src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo activité6 "> 
+                         </div>
+                        <!--TITRE BOTTOM BOX-->
+                        <div class="activité-descr">
+                            <p>Parc Longchamp
+                            </p>
+                         </div>
+                    </div>
+
+
 
             </div>
         
