@@ -6,180 +6,291 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
-
-
     <title>P2 mission maquette Reservia</title>
 </head>
 
+
+
 <body>
+
+    <!--GLOBAL CONTAINER-->
     <div class="container">
+
+        <!--HEADER SECTION-->
         <header>
             <img src="./images/logo/Reservia@3x.png" alt="logo">
-            
-            <a class="hébergements" href="#Hébergements">Hébergements</a>
-            <a class="activités" href="#Activités">Activités</a>
-            <a  class="inscription" href="#">S'inscrire</a>
-            <div class="bar"></div>
-            <div class="bar-position"></div>
-
+                <a class="hébergements" href="#Hébergements">Hébergements
+                </a>
+                <a class="activités" href="#Activités">Activités</a>
+                <a  class="inscription" href="#">S'inscrire
+                </a>
+            <div class="bar">
+            </div>
+            <div class="bar-position">
+            </div>
         </header>
 
+
+        <!--LOCATION SECTION-->
         <section>
             <div class="localisation">
-                <h1>Trouvez votre hébergement pour des vacances de reve</h1>
+                <h1>Trouvez votre hébergement pour des vacances de reve
+                </h1>
                 <p>En plein centre ville ou en pleine nature
                 </p>
-                    <div class="box">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <input type="text" placeholder="Marseille, France"> 
-
+                <div class="box">
+                    <i class="fas fa-map-marker-alt">
+                    </i>
+                        <input type="text" placeholder="Marseille, France">
                             <button
-                            class="search"> 
+                            class="search">
                                 <i class="fas fa-search"></i>   
                             </button>
-                    </div>
+                </div>
             </div>
         </section>
 
+        <!--FILTRES SECTION-->
         <section>
             <h1>Filtres</h1>
-            <div class="filtres">
+                <div class="filtres">
+                    <div class="filtres-g">
+                        <button class="eco">
+                            <i class="fas fa-money-bill-wave">  
+                            </i>
+                            <p>economique 
+                            </p> 
+                         </button> 
+                        <button class="rom">
+                            <i class="fas fa-heart"></i>
+                            <p>Romantique
+                            </p>
+                        </button> 
+                    </div>
 
-                <button type="btn" class="eco">
-                    <i class="fas fa-money-bill-wave"></i>
-                    <p>economique</p> 
-                </button> 
+                    <div class="filtre-dr">
+                        <button class="fam">
+                            <i class="fas fa-child"></i>
+                            <p>Familial</p>
+                        </button>  
+                    </div>
 
-                <button class="fam">
-                    <i class="fas fa-child"></i>
-                        <p>Familial</p>
-                </button> 
-                
-
-                <button class="rom">
-                    <i class="fas fa-heart"></i>
-                        <p>Romantique</p>
-                </button> 
-                
-
-                 <button  type="btn" class="pets">
-                    <i class="fas fa-dog"></i>
-                        <p>Animaux autorisés</p> 
-                 </button>
-            </div>
+                    <div class="filtre-bas">
+                        <button  type="btn" class="pets">
+                            <i class="fas fa-dog"></i>
+                            <p>Animaux autorisés</p> 
+                        </button> 
+                    </div>
+                </div>
         </section>
 
-        <p class="info"><i class="fas fa-info-circle"></i> Plus de 500 logements sont disponibles dans cette ville
+
+        <!--INFO SECTION-->
+        <p class="info">
+            <i class="fas fa-info-circle">
+            </i> Plus de 500 logements sont disponibles dans cette ville
         </p>
 
 
-
+        <!--MOST POPULAR SECTION-->
         <section>
+
+            <!--MOST POPULAR CONTAINER-->
             <div class="pop">
                 <div class="titrepop">
-                    <h1>Les plus populaires</h1><i class="fas fa-chart-line"></i>
+                    <h1>Les plus populaires
+                    </h1>
+                        <i class="fas fa-chart-line">
+                        </i>
                 </div>
                 
+                <!--FIRST CARD MOST POPULAR-->
                 <div class="box1">
+                    <!--IMAGE PART-->
                     <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo chambre">
-                    <div class="infhotel">
-                       <h2>Hotel Le soleil du matin</h2>
-                        <p>Nuit à partir de 128E</p>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                        <!--DESCRIPTION PART-->
+                        <div class="infhotel">
+                            <h2>Hotel Le soleil du matin
+                            </h2>
+                                <p>Nuit à partir de 128E
+                                </p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
                         </div>
-                    </div>
                 </div>
+
+
+                <!--SECOND CARD MOST POPULAR-->
                 <div class="box2">
                     <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo chambre2">
-                    <div class="infhotel">
-                       <h2>Au coeur de l'eau Chambres d'hôtes</h2>
-                        <p>Nuit à partir de 71E</p>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star star-grey"></i>
+                        <div class="infhotel">
+                            <h2>Au coeur de l'eau Chambres d'hôtes
+                            </h2>
+                                <p>Nuit à partir de 71E
+                                </p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star star-grey"></i>
+                                    </div>
                         </div>
-                    </div>
                 </div>
+
+
+                <!--THIRD CARD MOST POPULAR-->
                 <div class="box3">
                     <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo chambre3 ">
-                    <div class="infhotel">
-                       <h2>Hôtel Tout bleu et blanc</h2>
-                        <p>Nuit à partir de 68E</p>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star star-grey"></i>
+                        <div class="infhotel">
+                            <h2>Hôtel Tout bleu et blanc
+                            </h2>
+                                <p>Nuit à partir de 68E
+                                </p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star star-grey"></i>
+                                    </div>
                         </div>
-                    </div>
                 </div>
-
-
             </div>
         </section>
+        <!--END MOST POPULAR-->
 
 
+
+        <!--MARSEILLE HOSTING PART-->
         <section>
-            <div class="heberg-mars">
+
+            <!--MARSEILLE HOSTING CONTAINER-->
+            <div class="heberg-container">
                 <div class="titre-heberg-mars">
                     <h1>Hébergements à Marseille</h1>
                 </div>
                 
-                <div class="box-a">
+
+                <!--FIRST MARSEILLE HOSTING CARD-->
+                <div class="box-a box">
                     <img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo chambre">
-                    <div class="infheberg">
-                       <h2>Auberge La Cannebière</h2>
-                        <p>Nuit à partir de 25E</p>
-                        <div class="stars2">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                        <!--DESCRIPTION PART BOTTOM -->
+                        <div class="infheberg">
+                            <h2>Auberge La Cannebière
+                            </h2>
+                                <p>Nuit à partir de 25E
+                                </p>
+                                    <div class="stars2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
                         </div>
-                    </div>
                 </div>
-                <div class="box-b">
+
+
+                <!--SECOND MARSEILLE HOSTING CARD-->
+                <div class="box-b box">
                     <img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo chambre2">
-                    <div class="infheberg">
-                       <h2>>Hotel du port</h2>
-                        <p>Nuit à partir de 52E</p>
-                        <div class="stars2">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star star-grey"></i>
+                        <!--DESCRIPTION PART BOTTOM-->
+                        <div class="infheberg">
+                            <h2>>Hotel du port
+                            </h2>
+                                <p>Nuit à partir de 52E
+                                </p>
+                                    <div class="stars2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star star-grey"></i>
+                                    </div>
                         </div>
-                    </div>
                 </div>
-                <div class="box-c">
+
+                <!--THIRD MARSEILLE HOSTING CARD-->
+                <div class="box-c box">
                     <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo chambre3 ">
-                    <div class="infheberg">
-                       <h2>Hôtel Les mouettes</h2>
-                        <p>Nuit à partir de 76E</p>
-                        <div class="stars2">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star star-grey"></i>
+                        <!--DESCRIPTION PART BOTTOM-->
+                        <div class="infheberg">
+                            <h2>Hôtel Les mouettes
+                            </h2>
+                                <p>Nuit à partir de 76E
+                                </p>
+                                    <div class="stars2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star star-grey"></i>
+                                    </div>
                         </div>
-                    </div>
                 </div>
+
+                 <!--FOURTH MARSEILLE HOSTING CARD-->
+                 <div class="box">
+                    <img src="" alt="photo chambre3 ">
+                        <!--DESCRIPTION PART BOTTOM-->
+                        <div class="infheberg">
+                            <h2>Hôtel Les mou
+                            </h2>
+                                <p>Nuit à partir de 76E
+                                </p>
+                                    <div class="stars2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star star-grey"></i>
+                                    </div>
+                        </div>
+                </div>
+
+
 
 
             </div>
         </section>
+        <!--END MARSEILLE HOSTING PART-->
+
+        <button>Afficher plus</button>
+
+
+
+
+
+
+        <!--MARSEILLE ACTIVITIES PART-->
+        <section>
+
+            <!--MARSEILLE ACTIVITIES CONTAINER-->
+            <div class="activité-container">
+                <div class="activité-titre">
+                    <h1>Activités à Marseille</h1>
+                </div>
+
+                <div class="img-activité">
+                    <img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo chambre3 "> 
+                </div>
+                    <!--TITRE BOTTOM BOX-->
+                <div class="activité-descr">
+                    <p>Nuit à partir de 76E
+                    </p>
+                </div>
+
+            </div>
+        
+        </section>
+
+
 
 
 

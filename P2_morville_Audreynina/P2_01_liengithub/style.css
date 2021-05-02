@@ -332,66 +332,132 @@ header .activités:hover~.bar-position{
 /*FILTRES PART*/
 
 
+/*Filtres general box*/
 
 .filtres{
     /*background-color: hotpink;*/
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
     flex-wrap: wrap;
     width: 100%;
-    height: 150px;
+    height: 190px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+
+/*Filtres left box*/
+
+.filtres-g {
+    /*background-color: yellow;*/
+    width: 50%;
+    
+}
+
+
+.filtres-g .eco{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.filtres-g .rom{
+    width: 95%;
 }
 
 
 
+
+/*Filtres right box*/
+
+.filtre-dr{
+    /*background-color: saddlebrown;*/
+    width: 50%;
+    padding-left: 10px; 
+}
+
+
+.filtre-dr .fam{
+    width: 85%;
+}
+
+
+
+
+/*Filtres bottom box*/
+
+.filtre-bas{
+    /*background-color: seagreen;*/
+    width: 100%;
+}
+
+
+
+.filtre-bas .pets{
+    width: 62%;
+}
+
+
+
+
+/*Filtres icones*/
+
 .filtres i{
-    background-color: lightblue;
+    background-color: #DEEBFF;
     color: #0065FC;
     border-radius: 25px;
     width: 45px;
-    height: 41px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 17px;
 }
 
 
 
-
+/*Filtres buttons*/
 
 .eco, .fam, .rom, .pets{
-    /*background-color: #801010;*/
+    background-color: white;
     display: flex;
     align-items: center;
-    
     overflow: hidden;
-    border: 2px solid #DEEBFF;
-    width: 205px;
-    height: 45px;
+    border: 2px solid #d6d5d5;
+    font-weight: bold;
+    height: 47px;
     border-radius: 25px;
+    font-size: 16px;
 }
 
 
-.eco, .fam, .rom, .pets~a{
-    margin-left: 10px;
+
+/*FILTRES PARAGRAPHS*/
+
+.eco p,.fam p,.rom p,.pets p{
+    padding-left: 10px;
 }
+
+
+
 
 
 
 /*INFO PART*/
 
 
+.info i{
+    color:#0065FC;
+}
 
 
 .info{
     /*background-color: mediumslateblue;*/
-    margin: 5px 0px 59px 0px;
-    font-size: 20px;
-}
-
-
-.info i{
-    width: 20px;
+    margin: 5px 0px 40px 0px;
+    font-size: 16px;
+    color: rgb(22, 21, 21);
+    opacity: 0.7;
 }
 
 
@@ -408,17 +474,19 @@ header .activités:hover~.bar-position{
     display:flex;
     /*background-color:#971c1c ;*/
     justify-content: space-between;
-    padding: 20px 0px 20px 0px;
+    padding: 35px 0px 15px 0px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 
 
 .titrepop i{
-    display:flex;
     /*background-color: rgb(128, 0, 64);*/
+    display:flex;
     align-items: center;
     justify-content: center;
-    width: 25px;
+    font-size: 22px;
 }
 
 
@@ -610,6 +678,15 @@ i.star-grey{
 
 
 
+/*Hosting container*/
+
+.heberg-container{
+    background-color: #fdfcfc ;
+    height: 1000px;
+    padding-top: 40px;
+
+}
+
 
 .titre-heberg-mars{
     display:flex;
@@ -622,18 +699,12 @@ i.star-grey{
 
 .titre-heberg-mars i{
     display:flex;
-    /*background-color: rgb(128, 0, 64);*/
+    background-color: rgb(128, 0, 64);*/
     align-items: center;
     justify-content: center;
     width: 25px;
 }
 
-
-.heberg-mars{
-    background-color: #F2F2F2 ;
-    height: 1000px;
-
-}
 
 
 
@@ -757,10 +828,6 @@ i.star-grey{
 
 
 
-
-
-
-
 i.star-grey{
     color: #F2F2F2 ;
 }
@@ -785,7 +852,6 @@ i.star-grey{
     height: 180px;
     margin-top: 10px;
     border-radius: 15px;
-    
     padding: 5px;
 }
 
@@ -801,10 +867,6 @@ i.star-grey{
 .box-c p{
     font-size: 12px;
 }
-
-
-
-
 
 
 
@@ -826,9 +888,26 @@ i.star-grey{
 
 
 
-/*..*/
+/*ACTIVITIES PART*/
 
 
+
+
+/*Activities container*/
+
+
+.activité-container{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.activité-titre{
+    background-color: coral;
+}
 
 
 /*FOOTER PART*/
