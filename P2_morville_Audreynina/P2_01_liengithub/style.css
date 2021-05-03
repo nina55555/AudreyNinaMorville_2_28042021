@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
 
-/*...GENERAL RULES*/
+
+/*..............................................*/
+/*...GENERAL RULES PART*/
 
 
 
@@ -12,19 +14,37 @@
     overflow: visible;
 }
 
-/*...BODY RULES*/
+
+
+
+section{
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+
+
+
+/*...............................................*/
+/*...BODY RULES PART*/
+
 
 
 
 body{
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     background-color: #fdfdfd;
-    
 }
 
 
 
-/*...CONTAINER RULES*/
+
+
+
+/*..............................................*/
+/*...CONTAINER RULES PART*/
+
 
 
 
@@ -34,18 +54,23 @@ body{
     background-color:#fdfdfd ;
     width: 100%;
     height: 100vh;
-    
 }
 
 
-/*...HEADER RULES*/
+
+
+
+
+/*..............................................*/
+/*...HEADER RULES PART*/
+
 
 
 
 header{
     /*background-color: coral;*/
-    background-color: #fdfdfd;
     /*display: flex;*/
+    background-color: #fdfdfd;
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 1fr;
@@ -60,28 +85,58 @@ header{
 
 
 
-/*...IMAGES RULES*/
+
+/*Ordering the header elements*/
+
+header .hébergements{
+    order: 3;
+    }
+
+header .activités{
+    order: 4;
+    }
 
 
 
+
+
+
+/*.............*/
+/* Header bar*/
+.bar{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    height: 3px;
+    background-color:#F2F2F2;
+}
+
+
+
+
+.bar-position{
+    position: absolute;
+    top: 90%;
+    width: 50%;
+    height: 3px;
+    background-color:#0065FC;
+    z-index: 100;
+}
+
+
+
+/*.......................*/
+/*...Header images rules*/
 
 header img{
     width: 88px;
 }
 
 
-@media screen and (min-width:700px){
-    header img{
-        width: 44px;
-        margin-right: auto;
-        transform: translateY(50%);
-    }
-}
 
 
-/*...SUSCRIPTION RULES*/
-
-
+/*............................*/
+/*...Header suscription rules*/
 
 header .inscription{
     text-decoration: none;
@@ -94,26 +149,12 @@ header .inscription{
 
 
 
-@media  screen and (min-width:700px) {
-    header .inscription{
-        /*background-color: indigo;*/
-        margin-right: 15px;
-       
-    }
-}
 
 
 
-@media  screen and (max-width:700px) {
-    header .inscription{ 
-    }
-}
 
-
-
-/*...HOSTING RULES*/
-
-
+/*.................*/
+/*...Hosting rules*/
 
 header .hébergements{
     /*background-color: crimson;*/
@@ -128,154 +169,42 @@ header .hébergements{
 
 
 
-@media  screen and (min-width:700px) {
-    header .hébergements{
-       /*background-color: rgb(26, 36, 26); */
-       margin-right: 20px;
-    }
-}
 
 
-
-
-
-/*...ACTIVITIES RULES*/
-
-
+/*.....................*/
+/*...Activités rules*/
 
 header .activités{
+    /*background-color: darkgreen;*/
     text-decoration: none;
     color: black;
     font-size: 17px;
-    /*background-color: darkgreen;*/
     text-align: center;
 }
 
 
+
+
+/*Header activités hover */
 header .activités:hover~.bar-position{
-        transform: translateX(100%);  
-}
-
-
-
-@media  screen and (min-width:700px) {
-    header .activités{
-        margin-right: 20px;
-    }
-}
-
-
-
-
-/*...SUSCRIPTION, HOSTING AND ACTIVITIES RULES*/
-
-
-
-
-@media screen and (min-width:700px) {
-    header .activités, header .hébergements, header .inscription{
-    /*background-color: lawngreen;*/
-    padding: 0px;
-    font-size: 7px;
-    
-    }
-}
-
-
-
-/*...ORDERING THE ELEMENTS*/
-
-@media screen and (max-width:700px){
-    header .hébergements{
-        order: 3;
-    }
-
-    header .activités{
-        order: 4;
-    }
+    transform: translateX(100%);  
 }
 
 
 
 
 
-@media screen and (max-width:700px){
-    header{
-
-    }
-}
 
 
 
 
-.bar{
-    position: absolute;
-    top: 90%;
-    width: 100%;
-    height: 3px;
-    background-color:#F2F2F2;
-}
-
-.bar-position{
-    position: absolute;
-    top: 90%;
-    width: 50%;
-    height: 3px;
-    background-color:#0065FC;
-    z-index: 100;
-}
-
-
-
-
-
-@media screen and (min-width:700px) {
-    header{
-       /* background-color: sandybrown;*/
-        display: flex;
-        padding: 17px 0px 30px 0px;
-        
-        
-        justify-content: flex-end;
-    }
-
-    header .bar{
-        background-color:#fdfdfd ;
-        top: 1px;
-        right: 59px;
-        width: 120px;
-        height: 2px;
-    }
-
-    header .bar-position{
-        top: 1px;
-        right: 105px;
-        width: 75px;
-        height: 2px;
-    }
-
-    header .activités:hover~.bar-position{
-        top: 1px;
-        right: 105px;
-        width: 50px;
-    }
-}
-
-
-
-
-
-section{
-    padding: 0px 10px 0px 10px;
-
-}
-
-/*...LOCATION PART*/
+/*..................................................*/
+/*...TEXT LOCALISATION PART*/
 
 
 
 .localisation{
-    /*background-color: blueviolet;*/
+    background-color: blueviolet;
     width: 100%;
     height: 163px;
 }
@@ -298,7 +227,9 @@ section{
 
 
 
-/*...INPUT ZONE*/ 
+
+/*...............................................*/
+/*...INPUT-ZONE LOCALISATION PART*/ 
 
 
 .city-zone{
@@ -323,6 +254,7 @@ section{
     align-items: center;
     font-size: 13px;
 }
+
 
 
 
@@ -376,7 +308,7 @@ input:focus {
 
 
 
-
+/*............................................*/
 /*...FILTRES PART*/
 
 
@@ -397,6 +329,12 @@ input:focus {
 
 
 
+.filtres button:hover{
+    background-color: rgb(38, 109, 114);
+}
+
+
+
 .filtres-titre h1{
     /*background-color: coral;*/
     margin-top: 35px;
@@ -404,6 +342,7 @@ input:focus {
     font-size: 20px;
     font-weight: bold;
 }
+
 
 
 
@@ -424,6 +363,8 @@ input:focus {
 }
 
 
+
+
 .filtres-g .rom{
     width: 95%;
 }
@@ -438,6 +379,8 @@ input:focus {
     width: 50%;
     padding-left: 10px; 
 }
+
+
 
 
 .filtre-dr .fam{
@@ -479,6 +422,7 @@ input:focus {
 
 
 
+
 /*Filtres buttons*/
 
 .eco, .fam, .rom, .pets{
@@ -497,6 +441,13 @@ input:focus {
 
 
 
+
+
+
+
+
+
+
 /*Filtres paragraphs*/
 
 .eco p,.fam p,.rom p,.pets p{
@@ -507,7 +458,7 @@ input:focus {
 
 
 
-
+/*...........................................*/
 /*...INFO PART*/
 
 
@@ -555,6 +506,8 @@ input:focus {
 
 
 
+
+/*.............................................*/
 /*...MOST POPULARS PART*/
 
 
@@ -570,6 +523,7 @@ input:focus {
     padding-left: 8px;
 
 }
+
 
 
 /*Most popular title*/
@@ -598,7 +552,6 @@ input:focus {
 /*Most popular descriptions general rules*/
 
 
-
 .boxes-pop{
     border: 5px solid #F2F2F2;
     background-color:#fdfdfd ;
@@ -613,11 +566,13 @@ input:focus {
 
 
 
+
 .img-pop{
     /*background-color: rgb(10, 10, 10);
     padding: 5px;*/
     height: 100%;
 }
+
 
 
 
@@ -628,6 +583,7 @@ input:focus {
     height: 100%;
     object-fit: fill;
 }
+
 
 
 
@@ -654,22 +610,27 @@ input:focus {
 
 
 
+
+
 .infhotel p{
     font-size: 13px;
     padding-top: 5px;
 }
 
 
+
+
+
 .stars{
-    display: flex;
     /*background-color: violet;*/
+    display: flex;
     height: 15px;
     position: absolute;
     top: 90px;
     justify-content: space-between;
-    
-    
 }
+
+
 
 
 .stars i{
@@ -687,19 +648,14 @@ i.star-grey{
     color: #F2F2F2 ;
 }
 
-/*.stars i{
-    color: #0065FC;
-    padding: 20px 0px 10px 0px;
-}
-*/
 
 
 
 
 
 
-
-/*MARSEILLE HOSTING PART*/
+/*.............................................*/
+/*...MARSEILLE HOSTING PART*/
 
 
 
@@ -743,10 +699,12 @@ i.star-grey{
 
 
 
+
 .box-heberg-img{
     /*background-color: rgb(83, 21, 199);*/
     height: 120px;
 }
+
 
 
 
@@ -778,6 +736,7 @@ i.star-grey{
 
 
 
+
 .card-heberg h2{
     font-size: 16px;
     font-weight: bold;
@@ -785,9 +744,11 @@ i.star-grey{
 
 
 
+
 .card-heberg p{
     font-size: 14px;
 }
+
 
 
 
@@ -802,8 +763,8 @@ i.star-grey{
 
 
 
+
 .stars2 i{
-    
     font-size: 10px;
     color: #0065FC;
     /*padding: 20px 0px 10px 0px;*/
@@ -811,9 +772,18 @@ i.star-grey{
 
 
 
+
 i.star-grey{
     color: #F2F2F2 ;
 }
+
+
+
+
+
+/*.............................................*/
+/*...AFFICHER PLYS PART*/
+
 
 
 
@@ -828,12 +798,15 @@ i.star-grey{
 
 
 
-/*ACTIVITIES PART*/
+
+
+/*..............................................*/
+/*...ACTIVITIES PART*/
 
 
 
 
-/*Activities container*/
+/*Activité container*/
 
 
 .activité-container{
@@ -853,9 +826,11 @@ i.star-grey{
 }
 
 
+
 .card-activité{
-    background-color: yellow;
      /*background-color: red;*/
+     /*padding: 5px;*/
+     /*margin-bottom: 8px;*/
      background-color:#fdfdfd ;
      display: flex;
      flex-direction: column;
@@ -863,10 +838,9 @@ i.star-grey{
      height: 197px;
      margin-top: 5px;
      margin-bottom: 20px;
-     /*margin-bottom: 8px;*/
      border-radius: 26px;
-     /*padding: 5px;*/
 }
+
 
 
 
@@ -876,12 +850,16 @@ i.star-grey{
 }
 
 
+
+
 .img-activité img{
     border-radius: 21px 21px 0px 0px;
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
+
+
 
 
 .activité-descr{
@@ -896,7 +874,10 @@ i.star-grey{
 
 
 
-/*FOOTER PART*/
+
+/*.........................................*/
+/*...FOOTER PART*/
+
 
 
 
@@ -906,16 +887,17 @@ footer{
     flex-direction: column;
     padding-top: 50px;
     padding-left: 20px;
-    
 }
 
 
 
+/*Divs inside footer*/
 
 .a-propos, .nos-hebergements, .assistance{
     margin: 0px 0px 45px 0px;
-    
 }
+
+
 
 
 
@@ -926,7 +908,277 @@ footer{
 
 
 
+
+
 footer p{
     font-size: 14px;
     padding-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+/*.........................................*/
+/*...MEDIA QUERIES PART*/
+
+
+
+/*..........................................*/
+/*...MEDIA QUERIES TABLET PART*/
+/*Header img*/
+
+
+
+
+
+
+
+
+
+/*..............................................*/
+/*...MEDIA QUERIES DESKTOP PART*/
+
+
+/*...HEADER PART*/
+
+
+/*Header general rules*/
+
+@media screen and (min-width:700px) {
+    header .activités, header .hébergements, header .inscription{
+    /*background-color: lawngreen;*/
+    padding: 0px;
+    font-size: 7px;
+    }
+}
+
+
+
+
+
+/*Header*/
+
+@media screen and (min-width:700px) {
+    header{
+       /* background-color: sandybrown;*/
+        display: flex;
+        padding: 17px 0px 30px 0px;
+        justify-content: flex-end;
+    }
+}
+
+
+
+
+/*Header img*/
+
+@media screen and (min-width:700px){
+    header img{
+        width: 44px;
+        margin-right: auto;
+        transform: translateY(50%);
+    }
+}
+
+
+
+
+/*Header inscription*/
+
+@media  screen and (min-width:700px) {
+    header .inscription{
+        /*background-color: indigo;*/
+        margin-right: 15px;
+    }
+}
+
+
+
+
+
+
+/*Header hebergements*/
+
+@media  screen and (min-width:700px) {
+    header .hébergements{
+       /*background-color: rgb(26, 36, 26); */
+       margin-right: 20px;
+    }
+}
+
+
+
+
+
+
+
+/*Header activités*/
+
+@media  screen and (min-width:700px) {
+    header .activités{
+        margin-right: 20px;
+    }
+}
+
+
+
+
+
+
+
+/*Header bar */
+
+@media  screen and (min-width:700px) {
+    header .bar{
+        background-color:#fdfdfd ;
+        top: 1px;
+        right: 59px;
+        width: 120px;
+        height: 2px;
+    }
+}
+
+
+
+
+
+
+/*Header bar position*/
+
+@media  screen and (min-width:700px) {  
+    header .bar-position{
+        top: 1px;
+        right: 105px;
+        width: 75px;
+        height: 2px;
+    }
+}
+    
+
+
+
+
+
+    
+/*Header elements hover */
+
+@media  screen and (min-width:700px) {
+    header .activités:hover~.bar-position{
+        top: 1px;
+        right: 105px;
+        width: 50px;
+    }
+}
+
+
+
+
+
+/*Ordering the header elements*/
+
+@media  screen and (min-width:700px) {
+header .hébergements{
+    order: 1;
+    }
+
+header .activités{
+    order: 2;
+    }
+
+    header .inscription{
+        order: 3;
+        }
+}
+  
+
+
+
+
+
+
+    
+/*.....................................*/
+/*...LOCALISATION PART*/
+
+
+
+
+/*Div localisation*/
+
+@media  screen and (min-width:700px) {
+    .localisation{
+    background-color: blueviolet;
+    width: 80%;
+    height: 163px;
+    }
+}
+
+
+/*Text localisation*/
+
+@media  screen and (min-width:700px) {
+    .localisation h1{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px auto 0px 5px;
+    }
+}
+
+
+@media  screen and (min-width:700px) {
+    .localisation p{
+    font-size: 12px;
+    margin: 8px auto 20px 5px;
+    }
+}
+
+
+
+
+
+
+
+/*Input localisation*/
+
+@media  screen and (min-width:700px) {
+    .city-zone{
+        /*background-color: gold;*/
+        display: flex;
+        position: relative;
+        width: 58%;
+        margin: 0px auto 0px 0px ;
+    }
+}
+
+
+
+
+@media  screen and (min-width:700px) {
+    .input-zone .search{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 55px;
+    color: white;
+    border: 0px;
+    background-color:#154DFF;
+    border-radius: 15px;
+    font-size: 1.2em;
+    }
+}
+
+
+
+
+
+@media  screen and (min-width:700px) {
+   .icone i{
+    
+    } 
 }
