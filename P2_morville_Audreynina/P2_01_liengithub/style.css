@@ -990,7 +990,7 @@ footer p{
 
 @media screen and (min-width:700px){
     header img{
-        width: 44px;
+        width: 70px;
         margin-right: auto;
         transform: translateY(50%);
     }
@@ -1018,7 +1018,8 @@ footer p{
 @media  screen and (min-width:700px) {
     header .hébergements{
        /*background-color: rgb(26, 36, 26); */
-       margin-right: 20px;
+       margin-right: 45px;
+       font-size: 11px;
     }
 }
 
@@ -1032,7 +1033,8 @@ footer p{
 
 @media  screen and (min-width:700px) {
     header .activités{
-        margin-right: 20px;
+        margin-right: 50px;
+        font-size: 11px;
     }
 }
 
@@ -1040,16 +1042,26 @@ footer p{
 
 
 
+/*Header inscription*/
+
+@media  screen and (min-width:700px) {
+    header .inscription{
+        margin-right: 40px;
+        font-size: 11px;
+    }
+}
+
 
 
 /*Header bar */
 
 @media  screen and (min-width:700px) {
     header .bar{
+        /*-color: rgb(225, 65, 126);*/
         background-color:#fdfdfd ;
         top: 1px;
-        right: 59px;
-        width: 120px;
+        right: 125px;
+        width: 200px;
         height: 2px;
     }
 }
@@ -1064,13 +1076,25 @@ footer p{
 @media  screen and (min-width:700px) {  
     header .bar-position{
         top: 1px;
-        right: 105px;
-        width: 75px;
+        right: 215px;
+        width: 110px;
         height: 2px;
     }
 }
     
 
+
+
+
+
+/*Header activités hover */
+
+@media  screen and (min-width:700px) { 
+    header .activités:hover~.bar-position{
+    transform: translateX(-70%);
+
+    }
+}
 
 
 
@@ -1161,10 +1185,29 @@ header .activités{
         /*background-color: gold;*/
         display: flex;
         position: relative;
-        width: 58%;
+        width: 40%;
         margin: 0px auto 0px 0px ;
     }
 }
+
+
+
+
+
+
+@media  screen and (min-width:700px) {
+    .input-zone input{
+    /*background-color: seagreen;*/
+    width: 100%;
+    height: 35px;
+    font-size: 12px;
+    border-radius: 0px 17px 17px 0px;
+    font-weight: bold;
+    color: black;
+    }
+}
+
+
 
 
 
@@ -1175,11 +1218,11 @@ header .activités{
     top: 0;
     right: 0;
     width: 100px;
-    height: 55px;
+    height: 35px;
     color: white;
     border: 0px;
     background-color:#154DFF;
-    border-radius: 15px;
+    border-radius: 0px 11px 11px 0px;
     font-size: 1.2em;
     }
 }
@@ -1189,7 +1232,17 @@ header .activités{
 
 
 @media  screen and (min-width:700px) {
+    .icone {
+     height: 35px;
+     border-radius: 11px 0px 0px 11px;
+     } 
+ }
+
+
+
+
+@media  screen and (min-width:700px) {
    .icone i{
-    
+    font-size: 12px;
     } 
 }
