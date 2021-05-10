@@ -475,9 +475,7 @@ input:focus {
 
 .information{
     /*background-color: rosybrown;*/
-    display: grid;
-    grid-template-columns: 1fr 9fr;
-    grid-template-rows: 1fr;
+    display:flex;
     height: 50px;
     width: 100%;
     margin: 5px 0px 20px 20px;
@@ -505,13 +503,39 @@ input:focus {
 .text-info{
     /*background-color: green;*/
     height: 50px;
+
 }
 
 
 .text-info p{
-    font-size: 16px;
+    font-size: 17px;
     opacity: 0.7;
 }
+
+
+
+
+
+
+
+
+
+/*.............................................*/
+/*...RESPONSIVE BLOC PART*/
+
+
+
+#responsive-bloc{
+    /*background-color: coral;
+    height: 2500px;
+    */
+}
+
+
+
+
+
+
 
 
 
@@ -674,7 +698,7 @@ i.star-grey{
 
 .heberg-container{
     background-color: #fdfcfc ;
-    height: 1440px;
+    height: 1480px;
     padding-top: 40px;
 }
 
@@ -925,6 +949,8 @@ footer p{
     font-size: 14px;
     padding-top: 8px;
 }
+
+
 
 
 
@@ -1306,6 +1332,7 @@ header .activités{
     text-align: center;
     margin-top: 0px;
     padding-top: 0px;
+    padding-right: 15px;
     }
 
 }
@@ -1321,7 +1348,7 @@ header .activités{
 @media  screen and (min-width:700px) {
     .filtres-g {
     /*background-color: yellow;*/
-    width: 30%;
+    width: 35%;
     height: 35px;
     display: flex;
     
@@ -1406,6 +1433,75 @@ header .activités{
     width: 100%;
     margin-left: 0px;
     }
+}
+
+
+
+
+
+
+/*PARAGRAPHE INFORMATION*/
+
+
+
+@media  screen and (min-width:700px) {
+    .text-info p{
+    /*background-color: darkslategray;*/
+    font-size: 14px;
+    opacity: 0.7;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/*ORDERING THE RESPONSIVE BLOC PART*/
+
+
+
+
+/*responsive bloc part*/
+
+@media  screen and (min-width:700px) {
+    #responsive-bloc{
+    background-color: coral;
+    height: 1500px;
+    display: flex;
+    flex-direction: row-reverse;
+
+    }
+}
+
+
+
+/*Les plus populaires part*/
+
+@media  screen and (min-width:700px) {
+    .pop{
+    background-color: rgb(156, 80, 255);
+    order: 24;
+
+    }
+}
+
+
+
+
+/*hebergements a Marseille part*/
+
+
+@media  screen and (min-width:700px) {
+   .heberg-container{
+    background-color: darkred;
+    order: 23;
+    } 
 }
 
 
