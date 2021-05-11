@@ -1281,13 +1281,13 @@ header .activités{
 
 @media  screen and (min-width:700px) {
     .filtres-box{
-    /*background-color: rgb(105, 255, 105);*/
+    background-color: rgb(105, 255, 105);
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-top: 0px;
     margin-top:0px;
-    margin-bottom: 35px;
+    margin-bottom: 5px;
     }
 }
 
@@ -1436,19 +1436,41 @@ header .activités{
 
 /*PARAGRAPHE INFORMATION*/
 
-
-
 @media  screen and (min-width:700px) {
-    .text-info p{
-    /*background-color: darkslategray;*/
-    font-size: 14px;
-    opacity: 0.7;
+   .information{
+    /*background-color: rosybrown;*/
+    height: 30px;
+    margin: 5px 0px 15px 20px;
     }
-
+ 
 }
 
 
 
+
+
+@media  screen and (min-width:700px) {
+    .text-info {
+    /*background-color: darkslategray;*/
+    height: 15px;
+    }
+}
+
+
+
+@media  screen and (min-width:700px) {
+    .text-info p{
+    font-size: 12px;
+    opacity: 0.7;
+    }
+}
+
+
+@media  screen and (min-width:700px) {
+    .icone-info i{
+        font-size: 15px;
+    }
+}
 
 
 
@@ -1466,11 +1488,10 @@ header .activités{
 @media  screen and (min-width:700px) {
     #responsive-bloc{
     /*background-color: coral;*/
-    height: 700px;
+    height: 460px;
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
-
     }
 }
 
@@ -1482,23 +1503,33 @@ header .activités{
     .pop{
     /*background-color: rgb(156, 80, 255);*/
     width: 30vw;
-    height: 700px;
+    height: 460px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     border-radius: 25px;
-    /*padding: 25px;*/
     }
 }
 
 
 @media  screen and (min-width:700px) {
     .titrepop{
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 0px;
-    margin-top: 0px;
+    margin: 30px 0px 0px 0px;
     }
 }
+
+
+
+@media  screen and (min-width:700px) {
+    .titrepop i{
+    font-size: 20px;
+    padding-right: 15px;
+    
+    }
+}
+
+
 
 
 
@@ -1506,9 +1537,10 @@ header .activités{
 @media  screen and (min-width:700px) {
     .boxes-pop{
     /*background-color: hotpink;*/
-    width: 280px;
-    height: 160px;
-    margin: 0 auto;
+    width: 28vw;
+    height: 110px;
+    margin: 7px auto ;
+    padding: 0px;
     }
 }
 
@@ -1521,7 +1553,7 @@ header .activités{
 @media  screen and (min-width:700px) {
     .img-pop{
     /*background-color: rgb(10, 10, 10);*/
-    padding: 5px;
+    padding-top: 3px;
     height: 100%;
     width: 100%;
     }
@@ -1562,8 +1594,19 @@ header .activités{
 
 @media  screen and (min-width:700px) {
     .infhotel p{
-        font-size: 11px;
+        font-size:9px;
 }
+}
+
+
+
+@media  screen and (min-width:700px) {
+    .infhotel .stars {
+        /*background-color: mediumseagreen;*/
+        width: 58px;
+        transform: translateY(-24px);
+}
+
 }
 
 
@@ -1571,7 +1614,7 @@ header .activités{
 
 @media  screen and (min-width:700px) {
     .infhotel .stars i{
-    font-size: 7px;
+    font-size: 9px;
 }
 
 }
@@ -1592,11 +1635,13 @@ header .activités{
     /*background-color: darkred;*/
     background-color: #F2F2F2;
     width: 65vw;
-    height: 700px;
-    display: flex;
-    justify-content: space-evenly;
+    height: 460px;
+    /*display: flex;
+    justify-content: space-evenly;*/
     flex-wrap: wrap;
     border-radius: 25px;
+    padding: 0px;
+    margin: 0px;
     } 
 }
 
@@ -1606,7 +1651,170 @@ header .activités{
     .titre-heberg-mars{
         /*background-color: darkturquoise;*/
         width: 90%;
-        height: 40px;
+        height: 50px;
+    }
+ }
+ 
+
+
+
+/*responsive boxes */
+
+
+
+@media  screen and (min-width:700px) {
+    .first-line-boxes{
+        /*background-color: mediumblue;*/
+        width: 100%;
+        height: 170px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+ }
+
+
+
+
+
+ @media  screen and (min-width:700px) {
+    .second-line-boxes{
+        /*background-color: mediumblue;*/
+        width: 100%;
+        height: 160px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+ }
+
+
+
+
+
+
+ @media  screen and (min-width:700px) {
+    .titre-heberg-mars h1{
+        font-size: 17px;
+        margin-left: 25px;
+        padding-top: 35px;
+    }
+ }
+
+
+
+
+@media  screen and (min-width:700px) {
+    .card-heberg{
+        width: 175px;
+        height: 155px;
+        border-radius: 15px;
+        margin-top: 20px;
+        /*margin: 0px 0px 15px 32px;*/
+    }
+ }
+
+
+
+
+
+
+
+ @media  screen and (min-width:700px) {
+    .box-heberg-img {
+        /*background-color: indianred;*/
+        height: 100px;
+        width: 175px;
+    }
+ }
+
+
+
+
+
+
+
+ @media  screen and (min-width:700px) {
+    .box-heberg-img img {
+        width: 100%;
+        padding: 5px;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+ @media  screen and (min-width:700px) {
+    .infheberg {
+        /*background-color: lawngreen;*/
+        padding: 0px 0px 0px 10px;
+        
+    }
+ }
+
+
+
+
+
+
+
+
+ @media  screen and (min-width:700px) {
+    .infheberg h2{
+        font-size: 11px;
+        padding-bottom: 4px;
+        font-weight: bold;
+    }
+ }
+
+ 
+
+
+
+
+
+ @media  screen and (min-width:700px) {
+    .infheberg p{
+        font-size: 9px;
+
+    }
+ }
+
+
+
+
+
+/*stars hebergements part */
+
+ @media  screen and (min-width:700px) {
+    .stars2{
+        /*background-color: violet;*/
+   
+        display: flex;
+        width: 30%;
+        position: absolute;
+        justify-content: space-between;
+        margin-top: 34px;
+    }
+
+
+    .stars2 i{
+        font-size: 9px;
+        color: #0065FC;
+    }
+
+
+
+
+    i.star-grey{
+        color: #F2F2F2 ;
     }
  }
  
@@ -1617,20 +1825,16 @@ header .activités{
 
 
 
-@media  screen and (min-width:700px) {
-    .card-heberg{
-        width: 200px;
-        height: 210px;
-        /*margin: 0px 25px 15px 0px;*/
-    }
- }
+
+
 
 
 
  @media  screen and (min-width:700px) {
     .afficher-plus{
         transform: translateY(-40px) ;
-        margin-left: 10px;
+        margin-left: 20px;
+        font-size: 13px;
     }
  }
  
