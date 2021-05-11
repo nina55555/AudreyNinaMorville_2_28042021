@@ -1471,8 +1471,9 @@ header .activités{
 
 @media  screen and (min-width:700px) {
     #responsive-bloc{
-    background-color: coral;
-    height: 1500px;
+    /*background-color: coral;*/
+    height: 750px;
+    width: 100%;
     display: flex;
     flex-direction: row-reverse;
 
@@ -1485,11 +1486,27 @@ header .activités{
 
 @media  screen and (min-width:700px) {
     .pop{
-    background-color: rgb(156, 80, 255);
-    order: 24;
-
+    /*background-color: rgb(156, 80, 255);*/
+    width: 27vw;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    padding: 25px;
     }
 }
+
+
+@media  screen and (min-width:700px) {
+    .titrepop{
+    font-size: 19px;
+    padding-top: 0px;
+    margin-top: 0px;
+    }
+}
+
+
 
 
 
@@ -1499,11 +1516,49 @@ header .activités{
 
 @media  screen and (min-width:700px) {
    .heberg-container{
-    background-color: darkred;
-    order: 23;
+    /*background-color: darkred;*/
+    background-color: #F2F2F2;
+    width: 70vw;
+    height: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 25px;
     } 
 }
 
+
+
+@media  screen and (min-width:700px) {
+    .titre-heberg-mars{
+        /*background-color: darkturquoise;*/
+        width: 90%;
+        height: 40px;
+    }
+ }
+ 
+
+
+
+
+
+
+@media  screen and (min-width:700px) {
+    .card-heberg{
+        width: 255px;
+        margin: 0px 45px 15px 0px;
+    }
+ }
+
+
+
+ @media  screen and (min-width:700px) {
+    .afficher-plus{
+        transform: translateY(-40px) ;
+        margin-left: 50px;
+    }
+ }
+ 
 
 
 
