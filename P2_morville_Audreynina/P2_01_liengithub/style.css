@@ -3,6 +3,7 @@
 
 
 /*..............................................*/
+/*...iphone8 version*/
 /*...GENERAL RULES PART*/
 
 
@@ -972,13 +973,12 @@ footer p{
 
 
 /*..............................................*/
-/*...MEDIA QUERIES DESKTOP PART*/
+/*...MEDIA QUERIES*/
+/*...DESKTOP PART min-width:700px*/
+
+/*General rules*/
 
 
-/*...HEADER PART*/
-
-
-/*Header general rules*/
 
 @media screen and (min-width:700px) {
     header .activités, header .hébergements, header .inscription{
@@ -991,8 +991,8 @@ footer p{
 
 
 
+/*...HEADER PART*/
 
-/*Header*/
 
 @media screen and (min-width:700px) {
     header{
@@ -1001,31 +1001,18 @@ footer p{
         padding: 17px 0px 30px 0px;
         justify-content: flex-end;
     }
-}
 
-
-
-
-/*Header img*/
-
-@media screen and (min-width:700px){
     header img{
         width: 70px;
         margin-right: auto;
         transform: translateY(50%);
     }
-}
 
-
-
-
-/*Header inscription*/
-
-@media  screen and (min-width:700px) {
     header .inscription{
         /*background-color: indigo;*/
         margin-right: 15px;
     }
+
 }
 
 
