@@ -424,12 +424,12 @@ input:focus {
     background-color: #DEEBFF;
     color: #0065FC;
     border-radius: 25px;
-    width: 45px;
-    height: 45px;
+    width: 31px;
+    height: 31px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 17px;
+    font-size: 12px;
 }
 
 
@@ -1120,10 +1120,11 @@ footer p{
         /*background-color: gold;*/
         display: flex;
         position: relative;
-        width: 40%;
+        width: 37%;
         height: 35px;
         margin: 0px auto 0px 0px ;
         padding-bottom: 0px;
+        color: black;
     }
 
 
