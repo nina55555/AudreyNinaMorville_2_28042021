@@ -1537,7 +1537,7 @@ footer p{
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-around;
-        height: 340px;
+        height: 380px;
     }
 
 
@@ -1571,7 +1571,10 @@ footer p{
     }
  
     .activité-descr{
-        height: auto;
+       
+        padding-left: 15px;
+        padding-top: 25px;
+        transform: translateY(-15px);
     }
 
     .parc{
@@ -1585,7 +1588,9 @@ footer p{
     }
  
     .activité-descr{
-        height: auto;
+        padding-left: 15px;
+        padding-top: 25px;
+        transform: translateY(-15px);
     }
  }
 
@@ -1607,13 +1612,28 @@ footer p{
 
 
     .responsive-activites-duo .card-activité{
+        /*background-color: darkviolet;*/
         height: 46%;
     }
 
 
+
+    .responsive-activites-duo .card-activité img{
+        height: 80%;
+    }
+
+
+
+    .responsive-activites-duo .activité-descr p {
+        padding-left: 15px;
+        padding-top: 0px;
+        transform: translateY(-25px);
+   }
+
+
     /*NOTRE DAME AND PARC*/
     .responsive-activites-duo-b{
-        /*background-color: rgb(71, 22, 136);*/
+        /*background-color: rgb(243, 114, 29);*/
         width: 20%;
         height: 95%;
         display: flex;
@@ -1622,8 +1642,24 @@ footer p{
     }
 
 
+
     .responsive-activites-duo-b .card-activité{
+        /*background-color: rgb(211, 0, 0);*/
         height: 46%;
+       
+        
+    }
+
+
+    .responsive-activites-duo-b .card-activité img{
+        height: 80%;
+    }
+
+
+    .responsive-activites-duo-b .activité-descr p {
+         padding-left: 15px;
+         padding-top: 0px;
+         transform: translateY(-25px);
     }
 
 }
