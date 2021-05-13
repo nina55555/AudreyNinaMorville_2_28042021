@@ -1107,20 +1107,20 @@ footer p{
         background-color:#154DFF;
         border-radius: 0px 11px 11px 0px;
         font-size: 1.2em;
-        }
+    }
 
 
 
     .icone {
         height: 35px;
         border-radius: 11px 0px 0px 11px;
-        } 
+    } 
 
 
 
     .icone i{
         font-size: 12px;
-        } 
+    } 
 
 }
 
@@ -1212,19 +1212,18 @@ footer p{
     .text-info {
         /*background-color: darkslategray;*/
         height: 15px;
-        }
+    }
 
 
     .text-info p{
         font-size: 12px;
         opacity: 0.7;
-        }
+    }
 
 
     .icone-info i{
         font-size: 15px;
-        }
-
+    }
 }
 
 
@@ -1392,7 +1391,7 @@ footer p{
 
 
 
- .titre-heberg-mars h1{
+    .titre-heberg-mars h1{
         /*background-color: chocolate;*/
         font-size: 15px;
         margin-left: 25px;
@@ -1401,17 +1400,10 @@ footer p{
 
 
 
-    #Hébergements{
-        /*background-color: darkviolet;*/
-    }
-
-
-
-
     .infheberg {
         /*background-color: lawngreen;*/
         padding: 0px 0px 0px 15px;
-        }
+    }
 
 
 
@@ -1646,8 +1638,6 @@ footer p{
     .responsive-activites-duo-b .card-activité{
         /*background-color: rgb(211, 0, 0);*/
         height: 46%;
-       
-        
     }
 
 
@@ -1680,8 +1670,6 @@ footer p{
     }
 
 
-
-
     .foot-band{
         /*background-color: darkred;*/
         display: flex;
@@ -1691,12 +1679,5 @@ footer p{
         padding: 5px;
     }
 
-    footer .foot{
-        /*background-color: darkgreen;*/
-        
-    }
 }
-
-
-
-
+}
