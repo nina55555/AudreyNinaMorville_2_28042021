@@ -918,7 +918,7 @@ footer p{
 
 
 
-@media screen and (min-width:565px) and (max-width:1056px)  {
+@media screen and (min-width:721px) and (max-width:1056px)  {
    
     .localisation{
         /*background-color: lawngreen;*/
@@ -997,7 +997,7 @@ footer p{
 
 
 
- @media screen and (min-width:565px) and (max-width:1056px)  {
+ @media screen and (min-width:721px) and (max-width:1056px)  {
     .information i{
         font-size: 12px;
     }
@@ -1016,7 +1016,7 @@ footer p{
 
 
 
- @media screen and (min-width:565px) and (max-width:1056px)  {
+ @media screen and (min-width:721px) and (max-width:1056px)  {
     .filtres-box{
         /*background-color: indigo;*/
         text-align: center;   
@@ -1061,7 +1061,7 @@ footer p{
 
 
 
- @media screen and (min-width:565px) and (max-width:1056px)  {
+ @media screen and (min-width:721px) and (max-width:1056px)  {
     .titrepop{
         /*background: chartreuse;*/
         display: flex;
@@ -1093,7 +1093,7 @@ footer p{
 
  
 
- @media screen and (min-width:565px) and (max-width:1056px)  {
+ @media screen and (min-width:721px) and (max-width:1056px)  {
     .heberg-container{
         /*background-color: darkgreen;*/
         width: 90%;
@@ -1170,7 +1170,7 @@ footer p{
 
 
 
- @media screen and (min-width:565px) and (max-width:1056px)  {
+ @media screen and (min-width:721px) and (max-width:1056px)  {
     .afficher-plus{
         /*background-color: rgb(159, 88, 209);*/
         padding-top: 0px;
@@ -1185,7 +1185,7 @@ footer p{
 
 
 
- @media screen and (min-width:565px) and (max-width:1056px)  {
+ @media screen and (min-width:721px) and (max-width:1056px)  {
     .activité-container{
         /*background-color: midnightblue;*/
         width: 100%;
@@ -1200,7 +1200,7 @@ footer p{
 
 
     
- @media screen and (min-width:565px) and (max-width:1056px)  {
+ @media screen and (min-width:721px) and (max-width:1056px)  {
     .responsive-activités-principale{
         /*background-color: palevioletred;*/
         display: flex;
@@ -1216,7 +1216,7 @@ footer p{
 
 
 
- @media screen and (min-width:565px) and (max-width:1056px)  {
+ @media screen and (min-width:721px) and (max-width:1056px)  {
 
     .responsive-activites-duo{
         display: flex;
@@ -1225,7 +1225,7 @@ footer p{
  }
 
 
- @media screen and (min-width:565px) and (max-width:1056px)  {
+ @media screen and (min-width:721px) and (max-width:1056px)  {
     .responsive-activites-duo-b{
         display: flex;
     }
@@ -1236,7 +1236,7 @@ footer p{
 
 
 
- @media screen and (min-width:565px) and (max-width:1056px)  {
+ @media screen and (min-width:721px) and (max-width:1056px)  {
     .card-activité{
         /*background-color: olive;*/
         border-radius: 100px;
@@ -1274,7 +1274,7 @@ footer p{
 
 
 
- @media screen and (min-width:565px) and (max-width:1056px)  {
+ @media screen and (min-width:721px) and (max-width:1056px)  {
     .foot-band{
         display: flex;
         flex-direction: row;
