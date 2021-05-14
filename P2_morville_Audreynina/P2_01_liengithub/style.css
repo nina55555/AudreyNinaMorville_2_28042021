@@ -1246,6 +1246,16 @@ footer p{
     }
 
 
+
+    .card-activité:hover{
+        /*background-color: olive;*/
+        width: 205px;
+        height: 205px;
+        box-shadow: 5px 7px 5px rgb(10, 10, 10);
+    }
+
+
+
     .card-activité.parc{
         /*background-color: rgb(128, 41, 0);*/
         border-radius: 100px;
