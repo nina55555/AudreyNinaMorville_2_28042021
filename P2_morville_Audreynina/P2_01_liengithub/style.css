@@ -22,8 +22,6 @@
 
 
 
-
-
 /*...............................................*/
 /*...BODY RULES PART*/
 
@@ -50,9 +48,9 @@ body{
     display: flex;
     flex-direction: column;
     background-color:#fdfdfd ;
-    width: 100%;
+    width:100%;
     height: 100vh;
-    margin: 0px auto;
+    margin: 0px auto;;
 }
 
 
@@ -396,8 +394,6 @@ input:focus {
     height: 47px;
     border-radius: 25px;
     font-size: 16px;
-    margin-left: 15px;
-    
 }
 
 
@@ -408,9 +404,18 @@ input:focus {
 }
 
 
+.eco span{
+    /*color: red;*/
+    padding-left: 15px;
+}
+
 
 .fam{
     width: 40%;
+}
+
+.fam span{
+    padding-left: 15px;
 }
 
 
@@ -419,8 +424,20 @@ input:focus {
 }
 
 
+
+.rom span{
+    padding-left: 15px;
+}
+
+
+
 .pets{
     width: 60%;
+}
+
+
+.pets span{
+    padding-left: 15px;
 }
 
 
@@ -429,7 +446,7 @@ input:focus {
 
 /*Filtres paragraphs*/
 
-.eco p,.fam p,.rom p,.pets p{
+.eco h3,.fam h3,.rom h3,.pets h3{
     padding-left: 10px;
 }
 
@@ -517,7 +534,7 @@ input:focus {
     justify-content: space-between;
     padding: 35px 0px 5px 10px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
@@ -655,9 +672,9 @@ i.star-grey{
 
 /*Marseille hosting title*/
 
-.titre-heberg-mars h1{
+.titre-heberg-mars {
     /*background-color:#971c1c ;*/
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
     display:flex;
     justify-content: space-between;
@@ -1098,6 +1115,7 @@ footer p{
     .heberg-container{
         /*background-color: darkgreen;*/
         width: 90%;
+        height: auto;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -1109,6 +1127,7 @@ footer p{
     .titre-heberg-mars{
         /*background-color: darkslateblue;*/
         margin: 0 auto;
+        font-size: 20px;
     }
 
 
@@ -1123,7 +1142,7 @@ footer p{
 
     .card-heberg img{
         height: 200px;
-        padding: 25px 25px 25px 25px;
+        padding: 5px 25px 25px 25px;
         border-radius: 50px;
         object-fit: cover;
     }
@@ -1173,9 +1192,10 @@ footer p{
 
  @media screen and (min-width:721px) and (max-width:1056px)  {
     .afficher-plus{
-        /*background-color: rgb(159, 88, 209);*/
+        background-color: rgb(159, 88, 209);
         padding-top: 0px;
         padding-bottom: 45px;
+        padding-left: 0px;
         margin: 0 auto;
         font-size: 12px;
         opacity: 0.8;
@@ -1680,7 +1700,7 @@ footer p{
 
 
     .titrepop{
-        font-size: 14px;
+        font-size: 12px;
         padding: 0px;
         margin: 10px 0px 5px 0px;
     }
@@ -1777,6 +1797,11 @@ footer p{
         /*background-color: rgb(64, 195, 197);*/
         width: 90%;
         line-height: 5px;
+        font-size: 16px;
+        margin-left: 25px;
+        padding-top: 35px;
+    }
+
     }
 
 
@@ -1805,13 +1830,7 @@ footer p{
 
 
 
-    .titre-heberg-mars h1{
-        /*background-color: chocolate;*/
-        font-size: 15px;
-        margin-left: 25px;
-        padding-top: 35px;
-    }
-
+   
 
 
     .infheberg {
