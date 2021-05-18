@@ -332,9 +332,9 @@ input:focus {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 95%;
     height: 190px;
-    margin-top: 15px;
+    margin: 15px auto;
     margin-bottom: 20px;
 }
 
@@ -412,6 +412,7 @@ input:focus {
 
 .fam{
     width: 40%;
+    margin-left: 10px;
 }
 
 .fam span{
@@ -462,10 +463,8 @@ input:focus {
     /*background-color: rosybrown;*/
     display:flex;
     height: 50px;
-
-    
-    width: 100%;
-    margin: 5px 0px 20px 15px;
+    width: 95%;
+    margin: 5px auto 20px auto;
 }
 
 
@@ -1052,6 +1051,7 @@ footer p{
 
     .filtres button{
         width: 300px;
+        margin-left: 0px;
     }
 
 
@@ -1062,7 +1062,7 @@ footer p{
     }
 
 
-    .filtres p{
+    .filtres span{
         margin: auto;
         padding-right: 50px;
         opacity: 0.7;
@@ -1192,7 +1192,7 @@ footer p{
 
  @media screen and (min-width:721px) and (max-width:1056px)  {
     .afficher-plus{
-        background-color: rgb(159, 88, 209);
+        /*background-color: rgb(159, 88, 209);*/
         padding-top: 0px;
         padding-bottom: 45px;
         padding-left: 0px;
@@ -2143,5 +2143,4 @@ footer p{
         padding: 5px;
     }
 
-}
 }
