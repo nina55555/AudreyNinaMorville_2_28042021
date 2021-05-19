@@ -895,7 +895,7 @@ footer{
 /*Divs inside footer*/
 
 .a-propos, .nos-hebergements, .assistance{
-    /*background-color: cadetblue;*/
+    /*background-color: darkslategray;*/
     margin: 0px 0px 45px 0px;
     display: flex;
     flex-direction: column;
@@ -906,7 +906,7 @@ footer{
 
 
 .a-propos h2, .nos-hebergements h2, .assistance h2{
-    /*background-color: darkgray;*/
+    /*background-color: darkgoldenrod;*/
     font-size: 18px;
     margin-bottom: 15px;
 }
@@ -916,10 +916,10 @@ footer{
 
 
 footer a{
-    /*background-color: darksalmon;*/
-    color: black;
+    /*background-color: darkorchid;*/
     font-size: 14px;
     padding-top: 8px;
+    color: black;
 }
 
 
@@ -1057,6 +1057,7 @@ footer a{
 
     .filtres button{
         width: 300px;
+        margin-left: 0px;
     }
 
 
@@ -1068,7 +1069,6 @@ footer a{
 
 
     .filtres span{
-        /*background-color: rgb(163, 6, 6);*/
         margin: auto;
         padding-right: 50px;
         opacity: 0.7;
@@ -1614,6 +1614,8 @@ footer a{
 
     }
 
+
+    
 
     .fam{
         width: 12%;
