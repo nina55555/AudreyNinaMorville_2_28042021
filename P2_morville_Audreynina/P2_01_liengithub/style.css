@@ -895,7 +895,10 @@ footer{
 /*Divs inside footer*/
 
 .a-propos, .nos-hebergements, .assistance{
+    /*background-color: darkslategray;*/
     margin: 0px 0px 45px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -903,6 +906,7 @@ footer{
 
 
 .a-propos h2, .nos-hebergements h2, .assistance h2{
+    /*background-color: darkgoldenrod;*/
     font-size: 18px;
     margin-bottom: 15px;
 }
@@ -911,9 +915,11 @@ footer{
 
 
 
-footer p{
+footer a{
+    /*background-color: darkorchid;*/
     font-size: 14px;
     padding-top: 8px;
+    color: black;
 }
 
 
