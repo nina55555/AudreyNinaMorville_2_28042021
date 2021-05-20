@@ -1346,7 +1346,7 @@ footer a{
 /*..............................................*/
 /*...MEDIA QUERIES PART*/
 
-/*...DESKTOP PART min-width:700px*/
+/*...DESKTOP PART min-width:1057px*/
 
 
 
@@ -1359,7 +1359,7 @@ footer a{
 
 
 
-@media screen and (min-width:1056px) {
+@media screen and (min-width:1057px) {
     header .activités, header .hébergements, header .inscription{
     /*background-color: lawngreen;*/
     padding: 0px;
@@ -1372,7 +1372,7 @@ footer a{
 /*...HEADER PART*/
 
 
-@media screen and (min-width:1056px) {
+@media screen and (min-width:1057px) {
     header{
        /* background-color: sandybrown;*/
         display: flex;
@@ -1468,7 +1468,7 @@ footer a{
 
 /*...DIV LOCALISATION*/
 
-@media  screen and (min-width:1056px) {
+@media  screen and (min-width:1057px) {
     .localisation{
         /*background-color: blueviolet;*/
         width: 80%;
@@ -1569,7 +1569,7 @@ footer a{
 
 /*...FILTRES BOX*/
 
-@media  screen and (min-width:1056px) {
+@media  screen and (min-width:1057px) {
     .filtres-box{
         /*background-color: rgb(105, 255, 105);*/
         display: flex;
@@ -1641,7 +1641,7 @@ footer a{
 
 /*...PARAGRAPH INFORMATION*/
 
-@media  screen and (min-width:1056px) {
+@media  screen and (min-width:1057px) {
    .information{
         /*background-color: rosybrown;*/
         height: 30px;
@@ -1677,7 +1677,7 @@ footer a{
 
 /*...GENERAL CONTAINER*/
 
-@media  screen and (min-width:1056px) {
+@media  screen and (min-width:1057px) {
     #responsive-bloc{
         /*background-color: coral;*/
         height: 460px;
@@ -1693,7 +1693,7 @@ footer a{
 /*...RESPONSIVE POPULAR BLOC PART*/
 
 
-@media  screen and (min-width:1056px) {
+@media  screen and (min-width:1057px) {
     .pop{
         /*background-color: rgb(156, 80, 255);*/
         /*width: 285px;*/
@@ -1783,7 +1783,7 @@ footer a{
 /*...RESPONSIVE HEBERGEMENTS A MARSEILLE PART*/
 
 
-@media  screen and (min-width:1056px) {
+@media  screen and (min-width:1057px) {
    .heberg-container{
         /*background-color: darkred;*/
         background-color: #F2F2F2;
@@ -1916,7 +1916,7 @@ footer a{
 /*...AFFICHER PLUS INSCRIPTION*/
 
 
- @media  screen and (min-width:1056px) {
+ @media  screen and (min-width:1057px) {
     .afficher-plus{
         transform: translateY(-55px) ;
         margin-left: 35px;
@@ -1934,7 +1934,7 @@ footer a{
 
 
  
- @media  screen and (min-width:1056px) {
+ @media  screen and (min-width:1057px) {
 
  
     .activité-container{
@@ -2131,7 +2131,7 @@ footer a{
 /*...FOOTER*/
 
 
-@media  screen and (min-width:1056px) {
+@media  screen and (min-width:1057px) {
     footer{
         /*background-color: darkorange;*/
         display: flex;
